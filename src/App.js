@@ -17,6 +17,9 @@ function App() {
     { type: 'Tomato', color: 'tomato' },
     { type: 'Bacon', color: 'maroon' },
     { type: 'Onion', color: 'lightyellow' },
+    { type: 'Cheddar', color: 'gold' },
+    { type: 'Swiss', color: 'white' },
+    { type: 'Jalapenos', color: 'green' },
   ]);
 
   const [burger, setBurger] = useState([]);
