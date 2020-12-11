@@ -1,7 +1,18 @@
 .App {
   text-align: center;
+  display: flex;
+  
+  justify-content: space-evenly;
+}
+.Ingredients {
+  width: 450px;
+  border: 2px;
 }
 
+.Burger {
+  width: 450px;
+  border: 2px
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
