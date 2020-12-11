@@ -5,21 +5,21 @@ import Burger from './components/Burger'
 
 function App() {
   const [ingredients, setIngredients] = useState([
-    { type: 'Kaiser Bun', color: 'saddlebrown' },
-    { type: 'Sesame Bun', color: 'sandybrown' },
-    { type: 'Gluten Free Bun', color: 'peru' },
-    { type: 'Lettuce Wrap', color: 'olivedrab' },
-    { type: 'Beef Patty', color: '#3F250B' },
-    { type: 'Soy Patty', color: '#3F250B' },
-    { type: 'Black Bean Patty', color: '#3F250B' },
-    { type: 'Chicken Patty', color: 'burlywood' },
-    { type: 'Lettuce', color: 'lawngreen' },
-    { type: 'Tomato', color: 'tomato' },
-    { type: 'Bacon', color: 'maroon' },
-    { type: 'Onion', color: 'lightyellow' },
-    { type: 'Cheddar', color: 'gold' },
-    { type: 'Swiss', color: 'white' },
-    { type: 'Jalapenos', color: 'green' },
+    { name: 'Kaiser Bun', color: 'saddlebrown' },
+    { name: 'Sesame Bun', color: 'sandybrown' },
+    { name: 'Gluten Free Bun', color: 'peru' },
+    { name: 'Lettuce Wrap', color: 'olivedrab' },
+    { name: 'Beef Patty', color: '#3F250B' },
+    { name: 'Soy Patty', color: '#3F250B' },
+    { name: 'Black Bean Patty', color: '#3F250B' },
+    { name: 'Chicken Patty', color: 'burlywood' },
+    { name: 'Lettuce', color: 'lawngreen' },
+    { name: 'Tomato', color: 'tomato' },
+    { name: 'Bacon', color: 'maroon' },
+    { name: 'Onion', color: 'lightyellow' },
+    { name: 'Cheddar', color: 'gold' },
+    { name: 'Swiss', color: 'white' },
+    { name: 'Jalapenos', color: 'green' },
   ]);
 
   const [burger, setBurger] = useState([]);

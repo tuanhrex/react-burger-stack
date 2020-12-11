@@ -16,6 +16,7 @@
 }
 
 .IngredientButtons {
+  height: 25px;
   white-space: normal;
   width: 200px;
 }

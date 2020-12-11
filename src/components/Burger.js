@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 function Burger(props) {
     const createdBurger = props.burger.map((ingredient, index) => {
         return (
-            <button className="IngredientButtons" key={index} style={{backgroundColor: ingredient.color}}>{ingredient.type}</button>
+            <button className="IngredientButtons" key={index} style={{backgroundColor: ingredient.color}}>{ingredient.name}</button>
         )
     })
     console.log(props.burger);
