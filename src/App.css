@@ -5,13 +5,18 @@
   justify-content: space-evenly;
 }
 .Ingredients {
-  width: 450px;
+  width: 200px;
   border: 2px;
 }
 
 .Burger {
-  width: 450px;
-  border: 2px
+  width: 200px;
+  
+}
+
+.IngredientButtons {
+  white-space: normal;
+  width: 200px;
 }
 .App-logo {
   height: 40vmin;
